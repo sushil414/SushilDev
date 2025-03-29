@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HomeController {
-	
+public class TestController {
+
 	@GetMapping("/")
-	public ResponseEntity<?> getData(){
-		return ResponseEntity.ok("Created");
+	public ResponseEntity<?> testData(){
+		return ResponseEntity.ok("Test Controller");
 	}
 }
